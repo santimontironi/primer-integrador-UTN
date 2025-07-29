@@ -15,14 +15,13 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 0 30px 0 30px;
+    padding: 0 12px 0 12px;
     align-items: center;
-    height: 80px;
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
-    height: 100px;
+    height: 50px;
 }
 
 header .header-logo-nav{
@@ -36,53 +35,23 @@ header .header-logo-nav .logo svg{
     align-items: center;
 }
  
-header .header-logo-nav nav ul{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    list-style: none;
-}
-
-header .header-logo-nav nav ul li a{
-    color: #000;
-    text-decoration: none;
-    font-size: 14px;
+header nav{
+    display: none;
 }
 
 header .header-language{
-    display: flex;
-    gap: 20px;
-    align-items: center;
+    display: none
 }
 
-header .header-language div{
+header .header-btn{
     display: flex;
-    gap: 15px;
-    align-items: center;
 }
 
-header .header-language div button{
-    background-color: transparent;
+header .header-btn button{
     border: none;
-}
-
-header .header-language div button img{
-    width: 30px;
-}
-
-header .header-language div p{
-    font-weight: 800;
-    font-size: 13px;
-}
-
-header .header-language a{
-    text-decoration: none;
-    border: solid 2px #000;
-    border-radius: 8px;
-    padding: 10px;
+    background-color: transparent;
     color: #000;
-    font-weight: 800;
-    font-size: 13px;
+    font-size: 30px;
 }
 
 .home{
@@ -92,26 +61,31 @@ header .header-language a{
     justify-content: center;
     align-items: center;
     padding-bottom: 40px;
-    height: calc(100vh-100px);
+    height: calc(100vh -50px);
 }
 
 .home .home-content{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    height: 580px;
+    width: 100%;
 }
 
 .home-content-info{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
-    width: 400px;
-    padding: 12px;
+    width: 360px;
+    padding: 15px;
 }
 
 .home-content-info-title{
     font-weight: 600;
-    font-size: 40px;
+    font-size: 28px;
     line-height: 34px;
 }
 
@@ -127,21 +101,18 @@ header .header-language a{
 
 .home-content-list-services ul{
     list-style: none;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
 }
 
-.home-content-contentprice-box p{
-    font-weight: 300;
+.home-content-list-services ul li{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
-.home-content-price-box .price{
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.home-content-price-box span{
-    font-weight: bold;
+.home-content-price-box{
+    display: none;
 }
 
 .home-content-buttons-box{
@@ -151,32 +122,27 @@ header .header-language a{
 
 .home-content-buttons-box button:first-child{
     background-color: #683ee6;
-    padding: 10px;
+    padding: 14px;
     color: #fff;
     border: none;
     border-radius: 7px;
-    width: 150px;
     cursor: pointer;
+    width: 100%;
+    font-weight: 800;
+    font-size: 16px;
 }
 
 .home-content-buttons-box span{
-    background-color: #e3dcfc;
-    padding: 10px;
-    color: #000;
-    border: none;
-    border-radius: 7px;
-    width: 150px;
-    text-align: center;
-    font-size: 12px;
+    display: none;
 }
 
 .home-content-garantia p{
     font-weight: 300;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .home-content-photo img{
-    width: 800px;
+    width: 360px;
 }
 
 .home .home-recomendado{
@@ -184,7 +150,7 @@ header .header-language a{
 }
 
 .home .home-recomendado p{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .home .home-recomendado i{
