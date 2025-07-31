@@ -301,8 +301,40 @@ header .header-btn button{
     transition: .8s;
 }
 
-@media screen and (min-width:768px){
-
+@media screen and (min-width:678px){
+    .home-content{
+        width: 100%;
+        gap: 10px;
+        justify-content: center;
+    }
+    .home-content-info{
+        width: 600px;
+    }
+    .home-content-buttons-box button{
+        width: 170px;
+    }
+    .home-content-photo img{
+        width: 600px;
+    }
+    .services-content{
+        padding-top: 50px;
+    }
+    .services-content-cards-list{
+        margin-top: 40px;
+    }
+    .services-content-info h2{
+        font-size: 35px;
+        width: initial;
+    }
+    .services-content-info p{
+        font-size: 15px;
+        width: 600px;
+    }
+    .services-content-card{
+        padding: 20px;
+        width: 600px;
+        height: 220px;
+    }
 }
 
 @media screen and (min-width:1200px){
@@ -401,6 +433,9 @@ header .header-btn button{
         font-size: 15px;
         width: 1000px;
     }
+    .services-content-card{
+        width: 340px;
+    }
 }
 
 @media screen and (min-width:1440px){
@@ -467,7 +502,6 @@ header .header-btn button{
         display: none;
     }
     .home{
-        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -498,11 +532,11 @@ header .header-btn button{
     }
     .home-content-info-title{
         width: 380px;
-        font-size: 40px;
-        line-height: 34px;
+        font-size: 35px;
+        line-height: 40px;
     }
     .home-content-info-p-off{
-        font-size: 18px;
+        font-size: 19px;
         margin-bottom: 10px;
         font-weight: 600;
     }
@@ -529,10 +563,10 @@ header .header-btn button{
         gap: 10px;
     }
     .home-content-buttons-box button{
-        padding: 10px;
+        padding: 14px;
         border-radius: 7px;
         width: 170px;
-        font-size: 13px;
+        font-size: 14px;
     }
     .home-content-buttons-box span{
         background-color: #e3dcfc;
@@ -546,14 +580,13 @@ header .header-btn button{
     }
     .home-content-garantia p{
         font-weight: 300;
-        font-size: 12px;
+        font-size: 15px;
     }
-
     .home-content-photo img{
         width: 800px;
     }
     .home .home-recomendado{
-        margin-top: 55px;
+        margin-top: 65px;
     }
     .home .home-recomendado p{
         font-size: 20px;
@@ -567,7 +600,7 @@ header .header-btn button{
     }
     .home-button-fixed button{
         padding: 15px;
-        position: sticky;
+        position: fixed;
         bottom: 20px;
         right: 20px;
         font-size: 15px;
