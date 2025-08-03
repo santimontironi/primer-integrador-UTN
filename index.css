@@ -60,7 +60,6 @@ header .header-btn button{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    height: calc(100vh - 50px);
 }
 
 .home-container{
@@ -139,6 +138,18 @@ header .header-btn button{
 }
 
 .home-content-buttons-box span{
+    background-color: #e3dcfc;
+    padding: 10px;
+    color: #000;
+    border: none;
+    border-radius: 7px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
     display: none;
 }
 
@@ -421,6 +432,9 @@ header .header-btn button{
         width: 170px;
         font-size: 14px;
     }
+    .home-content-buttons-box span{
+        display: flex;
+    }
     .home .home-recomendado{
         margin-top: 30px;
     }
@@ -575,14 +589,7 @@ header .header-btn button{
         font-size: 14px;
     }
     .home-content-buttons-box span{
-        background-color: #e3dcfc;
-        padding: 10px;
-        color: #000;
-        border: none;
-        border-radius: 7px;
-        width: 150px;
-        text-align: center;
-        font-size: 12px;
+        display: flex;
     }
     .home-content-garantia p{
         font-weight: 300;
