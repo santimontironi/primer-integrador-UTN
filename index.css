@@ -60,6 +60,8 @@ header .header-btn button{
     justify-content: center;
     align-items: center;
     gap: 40px;
+    min-height: 80vh;
+    padding-top: 20px;
 }
 
 .home-container{
@@ -76,14 +78,14 @@ header .header-btn button{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 100%
+    width: 100%;
 }
 
 .home-content-info{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 14px;
     width: 100%;
     padding: 15px;
 }
@@ -537,11 +539,8 @@ header .header-btn button{
         width: 100%;
     }
     .home-content{
-        display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        width: 1200px;
-        align-items: center;
+        gap: 60px;
     }
     .home-content-info{
         display: flex;
