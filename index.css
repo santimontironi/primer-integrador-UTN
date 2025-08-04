@@ -19,7 +19,7 @@ header{
     position: sticky;
     left: 0;
     right: 0;
-    top: 0;
+    top: 10px;
     height: 50px;
 }
 
@@ -121,10 +121,12 @@ header .header-btn button{
 .home-content-contentprice-box p{
     font-weight: 300;
 }
+
 .home-content-price-box .price{
     font-size: 40px;
     font-weight: bold;
 }
+
 .home-content-price-box span{
     font-weight: bold;
 }
@@ -195,14 +197,15 @@ header .header-btn button{
 .home-button-fixed button{
     background-color: #673de6;
     color: #fff;
-    padding: 15px;
-    border-radius: 100px;
+    padding: 11px;
+    border-radius: 50px;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 10px;
     border: none;
     font-weight: 800;
     font-size: 15px;
+    width: 200px;
     cursor: pointer;
 }
 
@@ -323,6 +326,11 @@ header .header-btn button{
 .services-content-button-start a:hover{
     background-color: #5632c4;
     transition: .8s;
+}
+
+footer{
+    background-color: #F4F5FF;
+    width: 100%;
 }
 
 @media screen and (min-width:678px){
@@ -482,7 +490,6 @@ header .header-btn button{
 @media screen and (min-width:1440px){
     header{
         padding: 0 30px 0 30px;
-        align-items: center;
         height: 100px;
     }
     .home{
