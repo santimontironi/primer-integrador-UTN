@@ -39,7 +39,7 @@ header nav{
 }
 
 header .header-language{
-    display: none
+    display: none;
 }
 
 header .header-btn{
@@ -483,84 +483,14 @@ header .header-btn button{
         align-items: center;
         height: 100px;
     }
-    header nav{
-        display: flex;
-        flex-direction: row;
-    }
-    header .header-logo-nav{
-        display: flex;
-        gap: 15px;
-        align-items: center;
-    }
-    header .header-logo-nav .logo svg{
-        display: flex;
-        align-items: center;
-    }
-    header .header-logo-nav nav ul{
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        list-style: none;
-    }
-    header .header-logo-nav nav ul li a{
-        color: #000;
-        text-decoration: none;
-        font-size: 14px;
-    }
-    header .header-language{
-        display: flex;
-        gap: 20px;
-        align-items: center;
-    }
-    header .header-language div{
-        display: flex;
-        gap: 15px;
-        align-items: center;
-    }
-    header .header-language div button{
-        background-color: transparent;
-        border: none;
-    }
-    header .header-language div button img{
-        width: 30px;
-    }
-    header .header-language div p{
-        font-weight: 800;
-        font-size: 13px;
-    }
-    header .header-language a{
-        text-decoration: none;
-        border: solid 2px #000;
-        border-radius: 8px;
-        padding: 10px;
-        color: #000;
-        font-weight: 800;
-        font-size: 13px;
-    }
-    header .header-btn{
-        display: none;
-    }
     .home{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         padding-bottom: 40px;
         height: calc(100vh-100px);
     }
-    .home-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
     .home-content{
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 1200px;
-        align-items: center;
     }
     .home-content-info{
         display: flex;
@@ -633,18 +563,11 @@ header .header-btn button{
     }
     .services{
         height: 650px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         padding-bottom: 0;
     }
     .services-content{
         width: 1128px;
         max-width: 1128px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         padding-top: 0;
     }
     .services-content-info{
