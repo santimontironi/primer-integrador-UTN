@@ -331,6 +331,82 @@ header .header-btn button{
 footer{
     background-color: #F4F5FF;
     width: 100%;
+    padding-top: 30px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-content-info-social-logo{
+    margin-top: 30px;
+}
+
+.footer-content-info-social{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.footer-content-info-social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 55px;
+}
+
+.footer-content-info-social-links a{
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.footer-content-info-social-links i{
+    color: #fff;
+}
+
+.footer-content-info-payments{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.footer-content-info-payments-legal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-content-info-payments-legal a{
+    flex-wrap: nowrap;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+.footer-content-info-payments-container{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.footer-content-info-payments-container-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+
+.footer-content-info-payments-container-img img{
+    width: 60px;
+    border: solid 1px #00000044;
 }
 
 @media screen and (min-width:678px){
@@ -564,11 +640,12 @@ footer{
         font-weight: 800;
     }
     .home-button-fixed button{
-        padding: 15px;
+        padding: 12px;
         position: fixed;
         bottom: 20px;
         right: 20px;
-        font-size: 15px;
+        font-size: 12px;
+        width: auto;
     }
     .services{
         height: 650px;
