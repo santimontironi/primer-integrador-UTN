@@ -587,6 +587,62 @@ footer{
     .services-content-card{
         width: 340px;
     }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .footer-container{
+        width: 1200px;
+        height: auto;
+        max-width: 1200px;
+    }
+    .footer-content-info-social{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .footer-content-info-social-logo{
+        margin-top: 0px;
+    }
+    .footer-content-info-social-links{
+        gap: 17px;
+    }
+    .footer-content-info-social-links a{
+        width: 25px;
+        height: 25px;
+        font-size: 13px;
+    }
+    .footer-content-info-payments{
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-content-info-payments-container-img{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        width: 550px;
+    }
+    .footer-content-info-payments-container-img a{
+        font-size: 14px;
+    }
+    .footer-rights{
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .footer-rights p{
+        font-weight: 300;
+    }
+    .footer-rights p:first-child{
+        width: 800px;
+    }
 }
 
 @media screen and (min-width:1440px){
@@ -708,60 +764,6 @@ footer{
     }
     .services-content-button-start{
         margin-top: 30px;
-    }
-    footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10px;
-    }
-    .footer-container{
-        width: 1200px;
-        height: auto;
-    }
-    .footer-content-info-social{
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-        align-items: center;
-    }
-    .footer-content-info-social-logo{
-        margin-top: 0px;
-    }
-    .footer-content-info-social-links{
-        gap: 17px;
-    }
-    .footer-content-info-social-links a{
-        width: 25px;
-        height: 25px;
-        font-size: 13px;
-    }
-    .footer-content-info-payments{
-        width: 100%;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .footer-content-info-payments-container-img{
-        margin-top: 10px;
-        display: flex;
-        flex-direction: row;
-        width: 550px;
-    }
-    .footer-content-info-payments-container-img a{
-        font-size: 14px;
-    }
-    .footer-rights{
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    .footer-rights p{
-        font-weight: 300;
-    }
-    .footer-rights p:first-child{
-        width: 800px;
     }
 }
 
