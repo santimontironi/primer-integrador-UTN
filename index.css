@@ -506,6 +506,8 @@ footer{
     header{
         padding: 0 30px 0 30px;
         height: 100px;
+        background-color: #fff;
+        box-shadow: 5px 5px 5px #0000002a;
     }
     header nav{
         display: flex;
@@ -657,8 +659,6 @@ footer{
     header{
         padding: 0 30px 0 30px;
         height: 100px;
-        background-color: #fff;
-        box-shadow: 5px 5px 5px #0000002a;
     }
     .home{
         padding-bottom: 40px;
