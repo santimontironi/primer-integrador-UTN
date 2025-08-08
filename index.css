@@ -21,6 +21,8 @@ header{
     right: 0;
     top: 0;
     height: 50px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #0000002a;
 }
 
 header .header-logo-nav{
@@ -506,8 +508,6 @@ footer{
     header{
         padding: 0 30px 0 30px;
         height: 100px;
-        background-color: #fff;
-        box-shadow: 5px 5px 5px #0000002a;
     }
     header nav{
         display: flex;
