@@ -21,7 +21,7 @@ El objetivo principal del trabajo es aplicar de manera práctica los conceptos b
 
 ## 🛠️ Tecnologías utilizadas
 
-- `HTML5`
-- `CSS3`
+- `HTML`
+- `CSS`
 - [Google Fonts](https://fonts.google.com/) 
 - [Bootstrap Icons](https://icons.getbootstrap.com/)
