@@ -1,6 +1,8 @@
 # 🧱 Proyecto Integrador 1 - Clon de Hostinger  
 *Diplomatura Full Stack - UTN Buenos Aires*
 
+## Despliegue: https://tp1utn.netlify.app/
+
 ## 📌 Descripción
 
 Este proyecto consiste en la recreación de la página principal del sitio [Hostinger](https://www.hostinger.com/) utilizando solamente **HTML5 y CSS**, como parte del primer proyecto integrador de la **Diplomatura en Desarrollo Full Stack** de la **Universidad Tecnológica Nacional (UTN) - Facultad Regional Buenos Aires**.
@@ -21,7 +23,7 @@ El objetivo principal del trabajo es aplicar de manera práctica los conceptos b
 
 ## 🛠️ Tecnologías utilizadas
 
-- `HTML5`
-- `CSS3`
+- `HTML`
+- `CSS`
 - [Google Fonts](https://fonts.google.com/) 
 - [Bootstrap Icons](https://icons.getbootstrap.com/)
