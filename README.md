@@ -17,7 +17,7 @@ El objetivo principal del trabajo es aplicar de manera práctica los conceptos b
 - Reproducir visualmente la estructura y diseño de la home de Hostinger.
 - Utilizar etiquetas HTML semánticas.
 - Aplicar estilos CSS de forma estructurada (puede ser en archivo externo).
-- Implementar diseño **responsive** (opcional, pero recomendado).
+- Implementar diseño **responsive** 
 - Organizar el proyecto de manera profesional (nombres de archivos, carpetas, etc).
 
 ---
