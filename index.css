@@ -5,6 +5,7 @@
     padding: 0;
     font-family: "DM Sans", sans-serif;
     box-sizing: border-box;
+    border: solid 2px red;
 }
 
 body{
@@ -80,7 +81,7 @@ header .header-btn button{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 100%;
+    max-width: 100vw;
 }
 
 .home-content-info{
@@ -176,7 +177,7 @@ header .header-btn button{
 }
 
 .home-content-photo img{
-    width: 400px;
+    width: 370px;
 }
 
 .home .home-recomendado{
@@ -362,7 +363,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 55px;
+    gap: 42px;
 }
 
 .footer-content-info-social-links a{
