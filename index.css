@@ -567,7 +567,7 @@ footer{
         display: none;
     }
     .home{
-        height: calc(100vh - 100px);
+        height: calc(110vh - 100px);
     }
     .home-content{
         width: 1200px;
@@ -662,7 +662,7 @@ footer{
     }
     .home{
         padding-bottom: 40px;
-        height: calc(100vh-100px);
+        height: calc(100vh - 100px);
     }
     .home-content{
         flex-direction: row;
